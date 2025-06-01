@@ -106,7 +106,7 @@ const navigate=useNavigate();
         >
           <div className=''>
             <DeleteAlertContent
-            content="kya sach me app apni ma chudwana chahate hai delete karke?"
+            content="Are you sure you want to delete this?"
             onDelete={()=>deleteSession(openDeleteAlert.data)}
             />
           </div>
